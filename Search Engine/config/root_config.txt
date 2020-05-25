@@ -1,0 +1,2 @@
+root_urls=https://www.cs.uic.edu
+max_crawl=3000
