@@ -1,7 +1,7 @@
 Title:
 Building an intelligent search engine
 Author:
-Sivaraman Lakshmipathy  slaksh5
+Sivaraman Lakshmipathy
 -------------------
 
 Readme:
