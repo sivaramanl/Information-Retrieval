@@ -9,7 +9,7 @@ Package dependencies:
   <li>string: to handle punctuations in the text</li>
   <li>zipfile: to extract contents from the zip file</li>
   <li>nltk: to perform text processing operations</li>
-
+<br>
 <b>Executing the source code - Input arguments:</b>
 <ul>
   <li>The source code can be executed without any input arguments.</li>
@@ -25,7 +25,7 @@ Package dependencies:
       Note: The files will be extracted to the current directory of the source code.
     </li>
 </ul>
-
+<br>
 <b>Execution outputs:</b>
 <ul>
   <li>The execution results in two sets of results, one without stop words removal and stemming and the other with both applied to the texts.</li>
@@ -40,7 +40,7 @@ Package dependencies:
     </ul>
   </li>
 </ul>
-
+<br>
 <b>Functionalities:</b>
 <br>
 The source consists of a class ‘textProcessor’ which encapsulates all the required functionalities. It is initiated using the directory name to be processed and makes a single pass over all the documents in the directory, processes the text and generates the following results.
@@ -85,7 +85,7 @@ The various functionalities are as follows:
     Identifies the number of words making up X% of the total collection size, where X is provided as an argument.
   </li>
 </ol>
- 
+<br>
 <b>Results:</b>
 <br>
 Text processing WITHOUT Stemming and stop word removal
@@ -117,7 +117,6 @@ Vocabulary size: 19885
 <br>be 	 	2500
 <br>information 	2322
 
-<br>
 <br>Stop words in top 20 words in the collection:
 <br>the 	 	25662
 <br>of 		18638
@@ -138,14 +137,14 @@ Vocabulary size: 19885
 <br>by 	 	2765
 <br>be 	 	2500
 
-<br><br>Minimum number of unique words accounting for 15% of total number of words in the collection: 4
+<br>Minimum number of unique words accounting for 15% of total number of words in the collection: 4
 <br>Top 4 words in the collection:
 <br>the 	 	25662
 <br>of 		18638
 <br>and 	 	14131
 <br>a 	 	13345
 
-<br><br>Text processing WITH Stemming and stop word removal
+<br>Text processing WITH Stemming and stop word removal
 <br>Total number of words in the collection: 294191
 <br>Vocabulary size: 13777
 <br>Top 20 words in the collection:
@@ -170,11 +169,10 @@ Vocabulary size: 19885
 <br>databas 	1424
 <br>comput 	1411
 
-<br><br>Stop words in top 20 words in the collection:  <<No stop words available>>
+<br>Stop words in top 20 words in the collection:  <<No stop words available>>
 
-<br><br>Minimum number of unique words accounting for 15% of total number of words in the collection: 24
+<br>Minimum number of unique words accounting for 15% of total number of words in the collection: 24
 <br>Top 24 words in the collection:
-<br>
 <br>system	3741
 <br>use 	 	3740
 <br>data 	 	2691
