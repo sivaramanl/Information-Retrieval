@@ -2,7 +2,6 @@
 <hr>
 Aim: Process a data corpus, generate the inverted index and process input queries to identify relevant documents. The final results are evaluated against human verified results.
 <hr>
-<br><br>
 Dependency: Python 3.7.1
 <br><br>
 Package dependencies:
