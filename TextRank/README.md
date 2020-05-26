@@ -1,7 +1,7 @@
 Aim: Implement TextRank algorithm to rank documents, and evaulate the ranking using gold standard measures.
 <hr>
 Dependency: Python 3.7.1
-<br>
+<br><br>
 Package dependencies:
 <ol>
  <li>os: to perform file operations</li>
@@ -120,7 +120,7 @@ The various components are discussed in detail below:
   </ol>
  </li>
 </ol>
-<br> 
+<br>
 <b>Results:</b>
 <br>1.	Window size = 2
 <br>
