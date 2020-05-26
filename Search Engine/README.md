@@ -48,17 +48,17 @@
             </li>
             <li>If the user is prompted to crawl, or if the user wishes to crawl a different set of web pages, it can be configured in the 'root_config.txt' file in the 'config' directory.
             </li>
-            <li>Launching the search engine:
-                <ul>
-                    <li>The search engine can be launched by executing the 'startup.py' file.
-                        <br>
-                        >> python startup.py
-                    </li>
-                    <li>The user will be prompted to choose between accessing a Graphical User Interface and the command prompt.</li>
-                    <li>The results will be populated in the user view.</li>
-                </ul>
-            </li>
         </ul>
+        <li><b>Launching the search engine:</b>
+            <ul>
+                <li>The search engine can be launched by executing the 'startup.py' file.
+                    <br>
+                    >> python startup.py
+                </li>
+                <li>The user will be prompted to choose between accessing a Graphical User Interface and the command prompt.</li>
+                <li>The results will be populated in the user view.</li>
+            </ul>
+        </li>
     </li>
 </ol>
 <b>Notes:</b>
