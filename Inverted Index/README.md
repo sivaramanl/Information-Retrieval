@@ -19,16 +19,16 @@ Package dependencies:
 <ul>
 	<li>The source code expects a minimum of two arguments - the first one for the query file and the second one for the relevance file.
 		<br>
-		>> python main.py <full_path_of_query_file> <full_path_of_relevance_file>
+		>> python main.py full_path_of_query_file full_path_of_relevance_file
 	</li>
 	<li>In this scenario, the source code looks for a directory named ‘cranfieldDocs’ and processes all documents in the directory. If the directory is unavailable, it tries to extract contents from ‘cranfield.tar.gz’ (intending to result in a directory named ‘cranfieldDocs’). If both operations fail, the source code exits.</li>
 	<li>If the end-user seeks to utilize a different directory, the full path can be provided as the third argument while running the code.
 		<br>
-		>> python main.py <full_path_of_query_file> <full_path_of_relevance_file> <full_path_of_directory>
+		>> python main.py full_path_of_query_file full_path_of_relevance_file full_path_of_directory
 	</li>
 	<li>If the end-user seeks to provide a zip file name (to be extracted), it can be provided as the thid argument while running the code along with the directory name to be processed as the fourth argument.
 		<br>
-		>> python main.py <full_path_of_query_file> <full_path_of_relevance_file> <full_path_of_zip_file> <full_path_of_directory>
+		>> python main.py full_path_of_query_file full_path_of_relevance_file full_path_of_zip_file full_path_of_directory
 		<br>
 		Note: The files will be extracted to the current directory of the source code.
 	</li>
