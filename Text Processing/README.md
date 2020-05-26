@@ -16,11 +16,11 @@ Package dependencies:
   <li>By default, the implementation looks for a directory named ‘citeseer’ and processes all documents in the directory. If the directory is unavailable, it tries to extract contents from ‘citeseer.zip’ (intending to result in a directory named ‘citeseer’). If both operations fail, the source code exits.</li>
   <li>If the end-user seeks to utilize a different directory, the full path can be provided as the first argument while running the code.
     <br>
-    >> python main.py <full_path_of_directory>
+    >> python main.py full_path_of_directory
     </li>
     <li>If the end-user seeks to provide a zip file name (to be extracted), it can be provided as the first argument while running the code along with the directory name to be processed as the second argument.
       <br>
-      >> python main.py <full_path_of_zip_file> <directory_name>
+      >> python main.py full_path_of_zip_file directory_name
       <br>
       Note: The files will be extracted to the current directory of the source code.
     </li>
@@ -35,7 +35,7 @@ Package dependencies:
       <li>Total number of words in the collection: An integer value</li>
       <li>Vocabulary size: An integer value</li>
       <li>Top 20 words in the collection: A list of top 20 words with their corresponding frequencies.</li>
-      <li>Stop words in the top 20 words in the collection: A list of stop words in the top 20 words with their corresponding frequencies. If no stop words are present, the text “<<No stop words available>>” is displayed instead.</li>
+      <li>Stop words in the top 20 words in the collection: A list of stop words in the top 20 words with their corresponding frequencies. If no stop words are present, the text "&lt;&lt;No stop words available&gt;&gt;" is displayed instead.</li>
       <li>The minimum number of unique words corresponding to 15% of the total number of words in the collection: An integer value, along with the list of such words.</li>
     </ul>
   </li>
@@ -169,7 +169,7 @@ Vocabulary size: 19885
 <br>databas 	1424
 <br>comput 	1411
 
-<br>Stop words in top 20 words in the collection:  <<No stop words available>>
+<br>Stop words in top 20 words in the collection:  &lt;&lt;No stop words available&gt;&gt;
 
 <br>Minimum number of unique words accounting for 15% of total number of words in the collection: 24
 <br>Top 24 words in the collection:
